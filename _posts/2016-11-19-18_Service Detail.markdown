@@ -14,11 +14,11 @@ App
 │───Header
 └───Content
 │   └───Breadcrumb
+│   │   └───ServiceDetailHeader
 │   └───ServiceDetail
-│   |   └───ServiceDetailHeader
-│   |   └───ServiceDetailInfo
-│   └───AvailablePackages
-│       └───AvailablePackages
+│   │   └───ServiceDetailInfo
+│   │   └───AvailablePackages
+│   │        └───AvailablePackages
 └───Footer
 {% endhighlight %}
 

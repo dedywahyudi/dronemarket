@@ -18,12 +18,15 @@ App
 │       └───MyRequestTabs
 │           └───MyRequestFilter
 │           └───MyRequestItems
-│           │   └───RequestDetails
-│           │   └───RequestMap
+│           │   └───RequestIntro
+│           │   └───RequestPanel
+│           │   │   └───RequestDetail
+│           │   │   └───CustomerContact
+│           │   │   └───RequestMap
 │           └───MyRequestPagination
 └───Footer
 {% endhighlight %}
 
 ### Recommended Libraries
 
-* [ProviderMap](https://github.com/istarkov/google-map-react)
+* [Map](https://github.com/istarkov/google-map-react)

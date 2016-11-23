@@ -13,10 +13,10 @@ categories: post
 App
 │───Header
 └───Content
-│   └───Breadcrumb
 │   └───ServiceAddress
 │   │   └───UserLocation
 │   │   └───TargetLocation
+│   │   └───ItemRequestForm
 │   └───ProviderMap
 │       └───DroneRoutes
 │       └───DroneCurrentLocation
@@ -26,7 +26,7 @@ App
 
 ### Recommended Libraries
 
-* [ProviderMap](https://github.com/istarkov/google-map-react)
+* [Map](https://github.com/istarkov/google-map-react)
 * [Dropdown](https://github.com/JedWatson/react-select)
 * [RadioButton & Checkboxes](http://www.luqin.xyz/react-icheck/#/?_k=ncq8ed)
 * [Tooltips1](https://github.com/react-component/tooltip)

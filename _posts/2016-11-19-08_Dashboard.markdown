@@ -15,7 +15,7 @@ App
 └───Content
 │   └───Breadcrumb
 │   └───DashboardStatus
-│   └───DashboardRequest
+│   └───DashboardRequestTab
 │   │   └───NewRequest
 │   │   │   └───NewRequestRow
 │   │   │   └───NewRequestPagination
@@ -29,4 +29,4 @@ App
 
 ### Recommended Libraries
 
-* [NewRequestTable](https://jsfiddle.net/carlosrocha/xgde4uh0/)
+* [Table](https://jsfiddle.net/carlosrocha/xgde4uh0/)

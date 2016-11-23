@@ -15,7 +15,7 @@ App
 └───Content
 │   └───Breadcrumb
 │   └───AssignDrone
-│       └───AssignDrone
+│       └───AssignDroneTitle
 │       └───AssignDroneInfo
 │       └───AssignDroneWizard
 │           └───Step1

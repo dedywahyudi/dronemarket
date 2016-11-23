@@ -16,7 +16,7 @@ App
 │   └───Breadcrumb
 │   └───DroneDetailBanner
 │   └───AvailablePackages
-│       └───AvailablePackages
+│       └───AvailablePackagesItem
 └───Footer
 {% endhighlight %}
 

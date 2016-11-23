@@ -31,4 +31,4 @@ App
 
 ### Recommended Libraries
 
-* [ProviderMap](https://github.com/istarkov/google-map-react)
+* [Map](https://github.com/istarkov/google-map-react)

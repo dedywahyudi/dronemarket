@@ -14,18 +14,21 @@ App
 │───Header
 └───Content
 │   └───Breadcrumb
-│   └───StatusDetailHeader
 │   └───StatusDetail
+│   │   └───StatusDetailHeader
 │   │   └───StatusDetailInfo
-│   │   └───StatusDetailMapRoute
-│   └───DeployMissionParameters
-│   └───DroneGraphPerformance
-│   └───MissionGallery
-│   │   └───MissionGalleryItem
-│   │   └───MissionGalleryPagination
+│   │   │   └───StatusProjectInfo
+│   │   │   └───StatusDetailMapRoute
+│   │   └───DeployMissionParameters
+│   │   │   └───OverallDronePerformance
+│   │   │   └───DroneGraphPerformance
+│   │   └───MissionGallery
+│   │   │   └───MissionGalleryItem
+│   │   │   └───MissionGalleryPagination
 └───Footer
 {% endhighlight %}
 
 ### Recommended Libraries
 
-* [ProviderMap](https://github.com/istarkov/google-map-react)
+* [Map](https://github.com/istarkov/google-map-react)
+* [Slideshow](https://github.com/xiaolin/react-image-gallery)

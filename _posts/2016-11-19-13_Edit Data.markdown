@@ -17,7 +17,7 @@ App
 │   └───EditTelemetryData
 │       └───TelemetryTabs
 │           └───TelemetryData
-│           │   └───TelemetryData
+│           │   └───TelemetryDataForm
 │           │   └───TelemetryDataActionButtons
 │           └───PictureFromMission
 └───Footer

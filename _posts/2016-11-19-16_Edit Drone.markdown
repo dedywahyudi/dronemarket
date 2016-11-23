@@ -14,8 +14,8 @@ App
 │───Header
 └───Content
 │   └───Breadcrumb
-│   └───EditDrones
-│       └───EditDronesFrom
+│   └───EditDronesHeader
+│   └───EditDronesFrom
 └───Footer
 {% endhighlight %}
 

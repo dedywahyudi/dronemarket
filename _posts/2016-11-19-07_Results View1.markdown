@@ -15,7 +15,7 @@ App
 └───Content
 └───Footer
 └───ModalOverlay
-    └───RatePilot
+    └───ModalRatePilot
 {% endhighlight %}
 
 ### Recommended Libraries

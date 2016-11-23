@@ -32,5 +32,5 @@ App
 
 ### Recommended Libraries
 
-* [ProviderMap](https://github.com/istarkov/google-map-react)
-* [PopularDrones](https://github.com/xiaolin/react-image-gallery)
+* [Map](https://github.com/istarkov/google-map-react)
+* [Slideshow](https://github.com/xiaolin/react-image-gallery)

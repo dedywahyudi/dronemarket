@@ -15,16 +15,19 @@ App
 └───Content
 │   └───Breadcrumb
 │   └───MyDrones
-│       └───MyDrones
+│       └───MyDronesHeader
 │       └───MyDronesMap
-│       └───MyDronesTable
+│       │   └───DroneLocations
+│       │   └───MyDronesMapLegend
+│       └───MyDronesTabs
 │           └───AvailableTab
+│           │   └───OnMissionRow
+│           │   └───OnMissionPagination
 │           └───OnMissionTab
-│              └───OnMissionRow
-│              └───OnMissionPagination
 └───Footer
 {% endhighlight %}
 
 ### Recommended Libraries
 
-* [NewRequestTable](https://jsfiddle.net/carlosrocha/xgde4uh0/)
+* [Map](https://github.com/istarkov/google-map-react)
+* [Table](https://jsfiddle.net/carlosrocha/xgde4uh0/)

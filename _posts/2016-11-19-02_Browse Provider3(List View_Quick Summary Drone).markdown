@@ -24,13 +24,12 @@ App
 │   └───ProviderMap
 │       └───UserLocation
 │       └───DroneLocation
-│       │   └───DronesTooltips
 │       └───MapActionButtons
 └───Footer
 {% endhighlight %}
 
 ### Recommended Libraries
 
-* [ProviderMap](https://github.com/istarkov/google-map-react)
+* [Map](https://github.com/istarkov/google-map-react)
 * [Tooltips1](https://github.com/react-component/tooltip)
 * [Tooltips2](https://github.com/react-component/tooltip)
