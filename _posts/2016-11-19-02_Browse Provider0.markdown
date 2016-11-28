@@ -32,3 +32,15 @@ App
 ### Recommended Libraries
 
 * [Map](https://github.com/istarkov/google-map-react)
+
+### PropTypes
+
+{% highlight ruby %}
+
+-- ProviderMap.jsx --
+ProviderMap.propTypes = {
+  droneslocations: PropTypes.array.isRequired,
+  userlocation: PropTypes.string.isRequired,
+};
+
+{% endhighlight %}

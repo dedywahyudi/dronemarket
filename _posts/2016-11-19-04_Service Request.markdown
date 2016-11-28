@@ -16,7 +16,7 @@ App
 │   └───ServiceAddress
 │   │   └───UserLocation
 │   │   └───TargetLocation
-│   │   └───ItemRequestForm
+│   └───ItemRequestForm
 │   └───ProviderMap
 │       └───DroneRoutes
 │       └───DroneCurrentLocation
@@ -31,3 +31,22 @@ App
 * [RadioButton & Checkboxes](http://www.luqin.xyz/react-icheck/#/?_k=ncq8ed)
 * [Tooltips1](https://github.com/react-component/tooltip)
 * [Tooltips2](https://github.com/react-component/tooltip)
+
+### PropTypes
+
+{% highlight ruby %}
+
+-- ServiceAddress.jsx --
+ServiceAddress.propTypes = {
+  userlocation: PropTypes.string.isRequired,
+  targetlocation: PropTypes.string.isRequired,
+};
+
+-- ProviderMap.jsx --
+ProviderMap.propTypes = {
+  routes: PropTypes.string.isRequired,
+  dronelocation: PropTypes.string.isRequired,
+  distance: PropTypes.number.isRequired,
+};
+
+{% endhighlight %}

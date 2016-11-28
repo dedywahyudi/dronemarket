@@ -31,3 +31,28 @@ App
 * [Dropdown](https://github.com/JedWatson/react-select)
 * [RangeSlider](https://github.com/react-component/slider)
 * [RadioButton & Checkboxes](http://www.luqin.xyz/react-icheck/#/?_k=ncq8ed)
+
+### PropTypes
+
+{% highlight ruby %}
+
+-- ProvidersGridItem.jsx --
+ProvidersGridItem.propTypes = {
+  sponsored: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  tooltips: PropTypes.string.isRequired,
+  badge: PropTypes.bool.isRequired,
+  completedjob: PropTypes.array.isRequired,
+  rating: PropTypes.number.isRequired,
+};
+
+-- NotificationRow.jsx --
+NotificationRow.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  status: PropTypes.string.isRequired,
+  time: PropTypes.string.isRequired,
+};
+
+{% endhighlight %}

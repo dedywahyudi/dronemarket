@@ -31,3 +31,23 @@ App
 
 * [Map](https://github.com/istarkov/google-map-react)
 * [Table](https://jsfiddle.net/carlosrocha/xgde4uh0/)
+
+### PropTypes
+
+{% highlight ruby %}
+
+-- MyDronesMap.jsx --
+MyDronesMap.propTypes = {
+  DroneLocations: PropTypes.array.isRequired,
+};
+
+-- AvailableTab.jsx --
+AvailableTab.propTypes = {
+  photo: PropTypes.string.isRequired,
+  serial: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  mileage: PropTypes.number.isRequired,
+};
+
+{% endhighlight %}

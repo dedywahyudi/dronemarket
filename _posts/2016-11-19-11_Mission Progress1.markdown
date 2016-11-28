@@ -24,3 +24,11 @@ App
 ### Recommended Libraries
 
 * [Map](https://github.com/istarkov/google-map-react)
+
+### PropTypes
+
+{% highlight ruby %}
+
+N/A
+
+{% endhighlight %}

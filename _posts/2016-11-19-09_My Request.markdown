@@ -19,10 +19,9 @@ App
 │           └───MyRequestFilter
 │           └───MyRequestItems
 │           │   └───RequestIntro
-│           │   └───RequestPanel
-│           │   │   └───RequestDetail
-│           │   │   └───CustomerContact
-│           │   │   └───RequestMap
+│           │   └───RequestDetail
+│           │   └───CustomerContact
+│           │   └───RequestMap
 │           └───MyRequestPagination
 └───Footer
 {% endhighlight %}
@@ -30,3 +29,43 @@ App
 ### Recommended Libraries
 
 * [Map](https://github.com/istarkov/google-map-react)
+
+### PropTypes
+
+{% highlight ruby %}
+
+-- RequestIntro.jsx --
+RequestIntro.propTypes = {
+  servicetype: PropTypes.string.isRequired,
+  deliverydate: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  distance: PropTypes.number.isRequired,
+  payout: PropTypes.number.isRequired,
+};
+
+-- RequestDetail.jsx --
+RequestDetail.propTypes = {
+  type: PropTypes.string.isRequired,
+  delivereditem: PropTypes.string.isRequired,
+  weight: PropTypes.number.isRequired,
+  deliverytime: PropTypes.date.isRequired,
+  pickuplocation: PropTypes.string.isRequired,
+  dropofflocation: PropTypes.string.isRequired,
+  distance: PropTypes.number.isRequired,
+  payout: PropTypes.number.isRequired,
+};
+
+-- CustomerContact.jsx --
+CustomerContact.propTypes = {
+  name: PropTypes.string.isRequired,
+  address: PropTypes.string.isRequired,
+  phone: PropTypes.number.isRequired,
+  email: PropTypes.string.isRequired,
+};
+
+-- RequestMap.jsx --
+RequestMap.propTypes = {
+  routes: PropTypes.string.isRequired,
+};
+
+{% endhighlight %}
